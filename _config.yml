@@ -1,0 +1,58 @@
+# Basic
+title: CZW
+# subtitle:
+description: 未曾狂热付出，嚎哭都该羞愧！
+avatarTitle: bugczw
+avatarDesc: 编程·学习·读书·记录
+url: "http://bugczw.github.io"
+
+# Comment
+comment:
+    # disqus: 
+    duoshuo: bugczw 
+
+# Social
+social:
+    # weibo: 
+    github: bugczw
+    # twitter: 
+    mail: bugczw@qq.com
+
+# 百度统计 
+# baidu:
+#    id:  
+
+# Google Analytics
+#ga:
+#    id: UA-87578654-1
+#    host: auto  
+
+#  _post/   文章目录
+#  _drafts/ 未发布的文章目录
+
+
+permalink: /:year/:month/:title/
+# Format
+markdown: kramdown
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear #背景Mask
+
+# The blog button should not be removed.
+blog_button:
+    title: 主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 存档, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 关于, description: about, url: '/about'}      
+    
+
+# Pagination
+plugins: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
+
+
